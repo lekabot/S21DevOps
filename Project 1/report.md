@@ -56,3 +56,17 @@
  ![](Images/3.10.png)
 
 ## Part 4. Обновление ОС
+
+- Узнаём колличество пакетов командой `sudo apt update`, обновляем пакеты командой `sudo apt full-upgrade` и проверяем обновления командой `sudo do-release-upgrade`
+ ![](Images/3.11.png)
+ 
+ ## Part 5. Использование команды sudo
+
+- Разрешаем пользователю new_cool_whitleyt, созданному в Part 2, выполнять команду sudo командой `sudo usermod -a -G sudo new_cool_whitleyt`
+ ![](Images/3.12.png)
+
+- Переключаемся на пользователя su - new_cool_whitleyt `su - new_cool_whitleyt`
+ ![](Images/3.13.png)
+ 
+- Изменяем hostname и проверяем изменения от добавленного пользователя `sudo hostname big-power`
+ ![](Images/3.14.png)
