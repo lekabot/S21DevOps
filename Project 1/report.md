@@ -1,18 +1,22 @@
 ## Part 1. Установка ОС
 - Скачаиваем образ с официального сайта Ubunutu https://ubuntu.com/download/server/armhttps://ubuntu.com/download/server/arm
 - Устанавливаем на виртуальную машину Ubuntu 20.04 Server LTS без графического интерфейса
-- Проверем всерию Ubuntu командой cat /etc/issue
+- Проверем всерию Ubuntu командой `cat /etc/issue`
 ![Версия Ubuntu](Images/1.png)
 
 ## Part 2. Создание пользователя
- - Создаём нового пользователя командой командой sudo adduser new_cool_whitleyt
+ - Создаём нового пользователя командой командой `sudo adduser new_cool_whitleyt`
  ![Создание нового пользователя](Images/2.1.png)
  
- - Добавляем пользователя в группу adm командой sudo usermod -a -G adm new_cool_whitleyt
+ - Добавляем пользователя в группу adm командой `sudo usermod -a -G adm new_cool_whitleyt`
   ![Добавляем пользователя в группу](Images/2.2.png)
 
-- Проверяем что пользователь был действительно создан
+- Проверяем что пользователь был действительно создан команддой `cat /etc/passwd`
  ![Проверка пользователя](Images/2.3.png)
 
 ## Part 3. Настройка сети ОС
+- Изменяем название машины на user-1 с помощью команды hostnamectl set-hostname user-1
+ ![Изменение название машины](Images/3.1.png)
 
+- Перезагружаем машину, чтобы изменения вступили в силу sudo re
+ 
