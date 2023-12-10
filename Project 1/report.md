@@ -57,7 +57,9 @@
 
 ## Part 4. Обновление ОС
 
-- Узнаём колличество пакетов командой `sudo apt update`, обновляем пакеты командой `sudo apt full-upgrade` и проверяем обновления командой `sudo do-release-upgrade`
+- Узнаём колличество пакетов командой `sudo apt update`, 
+    обновляем пакеты командой `sudo apt full-upgrade` и 
+    проверяем обновления командой `sudo do-release-upgrade`
  ![](Images/3.11.png)
  
  ## Part 5. Использование команды sudo
