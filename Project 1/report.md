@@ -224,5 +224,12 @@
 - Вывести размер всего содержимого в `/var/log` с помощью команды `sudo du -a -h /var/log`<br>
  ![](Images/12.3.png)<br>
 ## Part 13. Установка и использование утилиты ncdu
-
-
+- Устанавливаем утилиту ncdu командой `sudo apt install ncdu`
+ ![](Images/13.1.png)
+- Выведем размер папок с помощью команды `ncdu`:
+`/home`
+ ![](Images/13.2.png)
+`/var`
+ ![](Images/13.3.png)
+ `/var/log`
+ ![](Images/13.4.png)
