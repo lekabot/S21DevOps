@@ -221,7 +221,8 @@
  ![](Images/12.1.png)<br>
  - Вывести размер папок `/home`, `/var`, `/var/log` с помощью команды `sudo du -s -h /home && sudo du -s -h /var && sudo du -s -h /var/log`
  ![](Images/12.2.png)
-
-
+- Вывести размер всего содержимого в `/var/log` с помощью команды `sudo du -a -h /var/log`<br>
+ ![](Images/12.3.png)<br>
+## Part 13. Установка и использование утилиты ncdu
 
 
