@@ -1,5 +1,5 @@
 ## Part 1. Установка ОС
-- Скачаиваем образ с официального сайта Ubunutu https://ubuntu.com/download/server/armhttps://ubuntu.com/download/server/arm
+- Скачаиваем образ с официального сайта Ubunutu https://ubuntu.com/download/server/arm
 - Устанавливаем на виртуальную машину Ubuntu 20.04 Server LTS без графического интерфейса
 - Проверем всерию Ubuntu командой `cat /etc/issue`
 ![Версия Ubuntu](Images/1.png)
