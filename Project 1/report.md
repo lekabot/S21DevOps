@@ -135,7 +135,7 @@
 2. Добавляем автостарт службы SSHd командой `sudo update-rc.d ssh defaults`
  ![Добавление автостарта SSHd](Images/8.2.png)
 3. Изменяем порт SSHd в фале `sudo vim /etc/ssh/sshd_config` Заменяем #Port 22 на #Port 2022.
- ![Изменение порта SSHd](Images/8.3.png)
+ ![Изменение порта SSHd](Images/8.3.1.png)
 - Перезапускаем SSHd для внесения изменений `/etc/init.d/ssh restart`
  ![](Images/8.4.png)
 4. Проверяем наличие процесса SSHd командой ps -axfv | grep sshd
