@@ -138,5 +138,5 @@ HostMin 10.10.0.1 HostMax 10.10.63.254
 
 - В отчёт поместить скрин с вызовом и выводом использованной команды.
 
-![](images/usr1ipa.png)
-![](images/usr2ipa.png)
+![](./images/usr1ipa.png)
+![](./images/usr2ipa.png)
