@@ -137,5 +137,6 @@ HostMin 10.10.0.1 HostMax 10.10.63.254
 ##### С помощью команды `ip a` посмотреть существующие сетевые интерфейсы
 
 - В отчёт поместить скрин с вызовом и выводом использованной команды.
-![](images/usr1ipa.png)
-![](images/usr2ipa.png)
+
+<img src="images/usr1ipa.png" alt="ipa1" />
+<img src="images/usr2ipa.png" alt="ipa2" />
