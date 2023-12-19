@@ -138,5 +138,5 @@ HostMin 10.10.0.1 HostMax 10.10.63.254
 
 - В отчёт поместить скрин с вызовом и выводом использованной команды.
 
-<img src="./images/usr1ipa.png" alt="ipa1" />
-<img src="./images/usr2ipa.png" alt="ipa2" />
+<img src="/Images/usr1ipa.png" alt="ipa1" />
+<img src="/Images/usr2ipa.png" alt="ipa2" />
