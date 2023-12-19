@@ -145,5 +145,5 @@ HostMin 10.10.0.1 HostMax 10.10.63.254
 
 - В отчёт поместить скрины с содержанием изменённого файла *etc/netplan/00-installer-config.yaml* для каждой машины.
 
-![](./Images/usr1setnet.png)
+![](./Images/usr1setnet-2.png)
 ![](./Images/usr2setnet.png)
