@@ -138,5 +138,12 @@ HostMin 10.10.0.1 HostMax 10.10.63.254
 
 - В отчёт поместить скрин с вызовом и выводом использованной команды.
 
-![Resized Image](./Images/usr1ipa.png)
-![Resized Image](./Images/usr2ipa.png)
+![ipa](./Images/usr1ipa.png)
+![ipa](./Images/usr2ipa.png)
+
+#### Описать сетевой интерфейс, соответствующий внутренней сети, на обеих машинах и задать следующие адреса и маски: ws1 - `192.168.100.10`, маска `/16`, ws2 - `172.24.116.8`, маска `/12`
+
+- В отчёт поместить скрины с содержанием изменённого файла *etc/netplan/00-installer-config.yaml* для каждой машины.
+
+![](./Images/usr1setnet.png)
+![](./Images/usr2setnet.png)
