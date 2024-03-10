@@ -139,11 +139,11 @@ HostMin 10.10.0.1 HostMax 10.10.63.254
 
 - ```ip a (ws1, ws2)```<br>
 
-![ipa](./images/ipa.png) <br>
+![ipa](/images/ipa.png) <br>
 
 - ```Описан сетевой интерфейс, соответствующий внутренней сети, на обеих машинах и заданы следующие адреса и маски: ws1 - 192.168.100.10, маска /16, ws2 - 172.24.116.8, маска /12``` <br>
 
-![inter](./images/inter.PNG) <br>
+![inter](/images/inter.PNG) <br>
 
 - ```netplan apply```
 
@@ -153,8 +153,8 @@ HostMin 10.10.0.1 HostMax 10.10.63.254
 
 - ```Команды для добаления статического маршрута, пинг```
 
-![ipadd](./images/4.PNG) <br>
+![ipadd](/images/4.PNG) <br>
 
-![ping](./images/5.PNG) <br>
+![ping](/images/5.PNG) <br>
 
 #### 2.2. Добавление статического маршрута вручную
