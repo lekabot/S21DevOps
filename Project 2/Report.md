@@ -158,3 +158,13 @@ HostMin 10.10.0.1 HostMax 10.10.63.254
 ![ping](./Images/5.PNG) <br>
 
 #### 2.2. Добавление статического маршрута вручную
+
+- ```Изменённые файлы etc/netplan/00-installer-config.yaml```
+
+![](./Images/6.PNG) <br>
+
+- ```Повторный пинг```
+
+![](./Images/7.PNG) <br>
+
+## Part 3. Утилита iperf3
