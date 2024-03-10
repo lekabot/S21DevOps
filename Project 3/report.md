@@ -4,7 +4,7 @@
 
 - Возьмём официальный docker-образ с nginx и выкачаем его при помощи команды `docker pull`  
 
-![pull_nginx](/images/part_1/1.png)  
+![pull_nginx](./images/part_1/1.png)  
 
 - Удостоверимся в наличии образа через команду `docker images`  
 
