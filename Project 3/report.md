@@ -1,4 +1,4 @@
-# S21_SimpleDocker
+# Simple Docker
 
 ## Part 1. Ready-made docker
 
