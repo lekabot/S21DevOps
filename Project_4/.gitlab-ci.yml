@@ -1,0 +1,63 @@
+stages:
+    - build
+    - style
+    - test
+    - deploy
+
+my_build:
+    stage: build
+    tags: 
+      - build_tag
+    script:
+      - cd src/cat
+      - make s21_cat
+      - cd ../grep
+      - make s21_grep
+    artifacts:
+        paths:
+          - src/cat/s21_cat
+          - src/grep/s21_grep
+        expire_in: 30 days
+    after_script:
+      - bash src/notify.sh 
+
+my_style:
+    stage: style
+    tags:
+      - build_tag
+    script:
+      - cd src/cat/
+      - make clang-check > clang.txt
+      - cat clang.txt
+      - cd ../grep
+      - make clang-check > clang.txt
+      - cat clang.txt
+    allow_failure: false
+    after_script:
+      - bash src/notify.sh
+      
+my_test:
+    stage: test
+    tags:
+      - build_tag
+    script:
+      - cd ./src/cat/
+      - make test
+      - bash check_test_output.sh
+      - cd ../grep
+      - make test
+      - bash check_test_output.sh
+    allow_failure: false
+    after_script:
+      - bash src/notify.sh
+
+my_deploy:
+    stage: deploy
+    tags:
+      - build_tag
+    script:
+      - expect copy_prod.sh
+    when: manual
+    allow_failure: false
+    after_script:
+      - bash src/notify.sh
